@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Download Finsys App</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: #f4f6f9;
+            color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        .card {
+            background: #ffffff;
+            border-radius: 16px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+            padding: 32px 24px;
+            max-width: 400px;
+            width: 100%;
+            text-align: center;
+        }
+        .app-icon {
+            width: 80px;
+            height: 80px;
+            background: linear-gradient(135deg, #2563eb, #1d4ed8);
+            color: white;
+            font-size: 36px;
+            font-weight: bold;
+            border-radius: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0 auto 20px;
+            box-shadow: 0 4px 12px rgba(37, 99, 235, 0.3);
+        }
+        h1 {
+            margin: 0 0 8px;
+            font-size: 24px;
+            color: #111827;
+        }
+        .version {
+            font-size: 14px;
+            color: #6b7280;
+            margin-bottom: 24px;
+        }
+        .download-btn {
+            display: inline-block;
+            background-color: #2563eb;
+            color: #ffffff;
+            text-decoration: none;
+            font-size: 16px;
+            font-weight: 600;
+            padding: 14px 28px;
+            border-radius: 10px;
+            width: 100%;
+            box-sizing: border-box;
+            transition: background-color 0.2s ease;
+        }
+        .download-btn:hover {
+            background-color: #1d4ed8;
+        }
+        .instructions {
+            margin-top: 28px;
+            text-align: left;
+            background-color: #f8fafc;
+            padding: 16px;
+            border-radius: 10px;
+            font-size: 13px;
+            color: #475569;
+            border: 1px solid #e2e8f0;
+        }
+        .instructions strong {
+            color: #1e293b;
+            display: block;
+            margin-bottom: 6px;
+        }
+        .instructions ol {
+            margin: 0;
+            padding-left: 18px;
+        }
+        .instructions li {
+            margin-bottom: 4px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <div class="app-icon">F</div>
+        <h1>Finsys</h1>
+        <div class="version">Android Application (APK)</div>
+        
+        <!-- Ensure your APK file in the repository is named exactly Finsys.apk -->
+        <a href="./Finsys.apk" download="Finsys.apk" class="download-btn">
+            Download Finsys.apk
+        </a>
+
+        <div class="instructions">
+            <strong>Installation Guide:</strong>
+            <ol>
+                <li>Tap the <b>Download Finsys.apk</b> button above.</li>
+                <li>If prompted by your browser, tap <b>Download anyway</b>.</li>
+                <li>Open the downloaded file from your notifications or <b>Downloads</b> folder.</li>
+                <li>If asked, enable <b>Install from Unknown Sources</b> in your phone settings, then tap <b>Install</b>.</li>
+            </ol>
+        </div>
+    </div>
+
+</body>
+</html>
